@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main() {
     int answer;
     int input;
@@ -23,7 +25,7 @@ int main() {
 
     } while (input != answer);
 
-    printf("%d \n", answer);
+    printf("%d  \n", count);
 
-    return 0;
+    return 0 ;
 }
