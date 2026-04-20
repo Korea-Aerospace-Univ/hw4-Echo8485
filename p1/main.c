@@ -5,8 +5,7 @@ int main() {
     int input;
     int count = 0;
 
-    // 정답 입력
-    printf("정답 입력 : ");
+
     scanf("%d", &answer);
 
     do {
