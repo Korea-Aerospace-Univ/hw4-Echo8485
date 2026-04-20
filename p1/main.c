@@ -14,13 +14,13 @@ int main() {
         count++;
 
         if (input > answer) {
-            printf("%d>?  %d 보다 낮습니다\n", input, input);
+            printf("%d>?  \n", input);
         }
         else if (input < answer) {
-            printf("%d<?  %d 보다 높습니다\n", input, input);
+            printf("%d<?  \n", input);
         }
         else {
-            printf("%d==?  %d 정답입니다\n", input, input);
+            printf("%d==? \n", input);
         }
 
     } while (input != answer);
