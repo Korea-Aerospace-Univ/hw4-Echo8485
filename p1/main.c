@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int main() {
     int answer;
     int input;
@@ -25,7 +23,7 @@ int main() {
 
     } while (input != answer);
 
-    printf("%d ↦ 시도횟수는 %d회\n", answer, count);
+    printf("%d \n", answer);
 
     return 0;
 }
